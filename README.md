@@ -4,6 +4,7 @@
 - アイドル動画検索　→ 写真集検索　→ FANZA検索　の３段階で検索します。
 - 検索結果は３時間キャッシュします。
 - ロリポップやSakuraなどのPHPが利用できるレンタルサーバーで動作確認済みです。
+- [[RSS、XMLをAjax＋JSONPで表示するブログパーツを作成|https://codezine.jp/article/detail/5065]]
 
 利用例
 
