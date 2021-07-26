@@ -28,7 +28,6 @@ try {
     // 検索結果が 0件ならば写真集で検索
     if ( count($obj['result']['items']) == 0 ) {
       $url = "{$api_url}&site=DMM.com&service=ebook&floor=photo&hits=10&sort=date";
-      //echo $url;
       $text = @file_get_contents($url);
     }
 
@@ -36,7 +35,6 @@ try {
     $obj = json_decode($text,true);
     if ( count($obj['result']['items']) == 0 ) {
       $url = "{$api_url}}&site=FANZA&service=digital&floor=videoa&hits=10&sort=date";
-      //echo $url;
       $text = @file_get_contents($url);
     }
 
